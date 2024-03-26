@@ -21,6 +21,6 @@ class Author(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=64)
     # 一个作者可以对应多本书，一本书也可以有多个作者，多对多，在数据库中创建第三张表
-    # book = models.ManyToManyField(to=Book)
+    books = models.ManyToManyField(Book)
 
 
