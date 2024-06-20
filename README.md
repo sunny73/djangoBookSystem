@@ -1,1 +1,2 @@
 1个django book的增删改查项目
+lms 是project站点
