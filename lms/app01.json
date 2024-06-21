@@ -1,0 +1,1 @@
+[{"model": "app01.publisher", "pk": 2, "fields": {"name": "武汉出版社"}}, {"model": "app01.publisher", "pk": 3, "fields": {"name": "出版社777"}}, {"model": "app01.book", "pk": 1, "fields": {"name": "小王子", "publisher": 1}}, {"model": "app01.book", "pk": 3, "fields": {"name": "史记", "publisher": 2}}]
